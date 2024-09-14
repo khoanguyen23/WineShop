@@ -19,9 +19,9 @@ As a user of the website you will be able to:
 
 ### Installing
 
-*** To view the app.Visit -> [instagram](http://instagramlite.herokuapp.com/instagram/)
+*** To view the app.Visit -> [Demo](https://khoanguyen23.github.io/WineShop/)
 * Step 1:
-Clone this repo: git clone https://github.com/EKibet/instaram.git.
+Clone this repo: git clone https://github.com/khoanguyen23/WineShop
 * Step 2:
 The repo comes in a zipped or compressed format. Extract to your prefered location and open it.
 * Step 3:
