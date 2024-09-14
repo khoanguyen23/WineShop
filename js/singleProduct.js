@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const productId = urlParams.get("id");
 
     const xhr = new XMLHttpRequest();
-    xhr.open("GET", `http://localhost:3000/products/${productId}`, true);
+    xhr.open("GET", `https://wine-product.vercel.app/products/${productId}`, true);
 
     xhr.onreadystatechange = function () {
         if (xhr.readyState === 4 && xhr.status === 200) {

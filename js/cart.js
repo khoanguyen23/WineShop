@@ -152,7 +152,7 @@ clearCartBtn.addEventListener("click", function () {
 
 function saveOrder(orderData) {
   const xhr = new XMLHttpRequest();
-  xhr.open('POST', 'http://localhost:3000/orders');
+  xhr.open('POST', 'https://wine-product.vercel.app/orders');
   xhr.setRequestHeader('Content-Type', 'application/json');
 
   xhr.onload = function () {

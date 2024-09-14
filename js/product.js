@@ -13,7 +13,7 @@ let currentDisplayMode = "grid";
 let currentCategoryId = null;
 
 const request = new XMLHttpRequest();
-request.open("GET", "http://localhost:3000/products");
+request.open("GET", "https://wine-product.vercel.app/products");
 
 request.onload = function () {
   if (request.status >= 200 && request.status < 400) {
@@ -28,7 +28,7 @@ request.onload = function () {
     shuffleArray(products);
 
     const categoryRequest = new XMLHttpRequest();
-    categoryRequest.open("GET", "http://localhost:3000/categories");
+    categoryRequest.open("GET", "https://wine-product.vercel.app/categories");
 
     categoryRequest.onload = function () {
       if (categoryRequest.status >= 200 && categoryRequest.status < 400) {
